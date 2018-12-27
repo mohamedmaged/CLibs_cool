@@ -10,7 +10,7 @@
 )
 
 (defrule maged_isnot_cool
-     (maged notCool)
+     (maged notcool)
     =>
     (printout t "maged is always cool" crlf)
     (assert (Coolness (cool maged_isnot_cool)))
